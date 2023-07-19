@@ -1,0 +1,81 @@
+:root {
+  --footer-height: 150px;
+}
+
+.footer {
+  width: 100%;
+  height: var(--footer-height);
+  background-color: #282828;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  justify-self: end;
+  width: 100%;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: -50px;
+}
+
+.scroller {
+  width: var(--footer-height / 3);
+  height: var(--footer-height / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #079dff;
+  border-radius: 100%;
+  font-size: 40px;
+  transition: 0.2s ease-in-out;
+}
+
+.scroller:hover {
+  color: #079dff;
+  background-color: white;
+}
+
+.container a:focus {
+  outline: white solid 2px;
+}
+
+.text {
+  padding-top: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+}
+
+.icons a:focus {
+  outline: white solid 2px;
+}
+
+.icon {
+  transition: 0.2s ease-in-out;
+}
+
+.icon:hover {
+  color: #079dff;
+}
+
+span {
+  font-size: 14px;
+}
