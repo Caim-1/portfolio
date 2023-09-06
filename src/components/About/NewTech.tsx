@@ -9,7 +9,7 @@ import MongoDB from "@/assets/logos/MongoDB.svg";
 import Next from "@/assets/logos/Next.svg";
 import PostgreSQL from "@/assets/logos/PostgreSQL.svg";
 import Tailwind from "@/assets/logos/Tailwind.svg";
-import TypeScript from "@/assets/logos/TypeScript.svg";
+import TS from "@/assets/logos/TS.svg";
 
 export default function Technologies() {
   return (
@@ -28,7 +28,7 @@ export default function Technologies() {
           <span>JavaScript</span>
         </div>
         <div className={styles.item}>
-          <img src={TypeScript} />
+          <img src={TS} />
           <span>TypeScript</span>
         </div>
         <div className={styles.item}>
