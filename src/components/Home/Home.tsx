@@ -4,7 +4,7 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <section className={styles.home} id="home">
+    <section className={styles.home}>
       <div className={styles.content}>
         <Reveal width="100%">
           <div className={styles.welcome}>

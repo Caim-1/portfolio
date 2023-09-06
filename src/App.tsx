@@ -8,8 +8,8 @@ import Footer from "./components/Footer/Footer";
 
 export const App = () => {
   return (
-    <BrowserRouter>
-      <main className="app" id="app">
+    <BrowserRouter basename="/portfolio">
+      <main className="app" id="home">
         <Navbar />
         <Home />
         <About />

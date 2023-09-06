@@ -4,7 +4,6 @@ import HTML5 from "../../assets/logos/HTML5.svg";
 import React from "../../assets/logos/React.svg";
 import CSS3 from "../../assets/logos/CSS3.svg";
 import express from "../../assets/logos/express.svg";
-import NET from "../../assets/logos/.NET.svg";
 import JavaScript from "../../assets/logos/JavaScript.svg";
 import MongoDB from "../../assets/logos/MongoDB.svg";
 import Next from "../../assets/logos/Next.svg";
