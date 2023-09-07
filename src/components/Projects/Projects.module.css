@@ -76,6 +76,10 @@
   font-size: 0.75rem;
 }
 
+.tagList > li {
+  list-style-type: none;
+}
+
 @media (max-height: 1536px) {
   .content {
     gap: 50px;

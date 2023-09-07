@@ -43,7 +43,7 @@ const Project = ({
         <div className={styles.tags}>
           <ul className={styles.tagList}>
             {tags.map((tag, index) => (
-              <div key={index}>#{tag}</div>
+              <li key={index}>#{tag}</li>
             ))}
           </ul>
         </div>
