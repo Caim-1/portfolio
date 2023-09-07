@@ -7,7 +7,7 @@ type Props = {
 export default function Scroller({ section }: Props) {
   return (
     <div className={styles.container}>
-      <a href={section}>
+      <a href={section} aria-label="Navigate to the next section">
         <div className={styles.scroller}>&darr;</div>
       </a>
     </div>

@@ -4,12 +4,20 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.home}>
-        <a href="#home">HOME</a>
+        <a href="#home" aria-label="Navigate to the Home section">
+          HOME
+        </a>
       </div>
       <div className={styles.links}>
-        <a href="#about">ABOUT</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contact">CONTACT</a>
+        <a href="#about" aria-label="Navigate to the About section">
+          ABOUT
+        </a>
+        <a href="#projects" aria-label="Navigate to the Projects section">
+          PROJECTS
+        </a>
+        <a href="#contact" aria-label="Navigate to the Contact section">
+          CONTACT
+        </a>
       </div>
     </nav>
   );

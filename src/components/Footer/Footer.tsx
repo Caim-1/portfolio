@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <a href="#home">
+        <a href="#home" aria-label="Scroll to top of the page">
           <div className={styles.scroller}>
             <MdKeyboardArrowUp />
           </div>
@@ -15,10 +15,18 @@ const Footer = () => {
       </div>
       <div className={styles.content}>
         <div className={styles.icons}>
-          <a href={contactLinks.gitHub} target="_blank">
+          <a
+            href={contactLinks.gitHub}
+            target="_blank"
+            aria-label="Visit my GitHub profile"
+          >
             <SiGithub size={30} className={styles.icon} />
           </a>
-          <a href={contactLinks.gitHub} target="_blank">
+          <a
+            href={contactLinks.gitHub}
+            target="_blank"
+            aria-label="Visit my LinkedIn profile"
+          >
             <SiLinkedin size={30} className={styles.icon} />
           </a>
         </div>
