@@ -16,49 +16,49 @@ export default function Technologies() {
     <div className={styles.technologies}>
       <div className={styles.techContainer}>
         <div className={styles.item}>
-          <img src={HTML5} />
+          <img src={HTML5} alt="HTML5 logo" />
           <span>HTML5</span>
         </div>
         <div className={styles.item}>
-          <img src={CSS3} />
+          <img src={CSS3} alt="CSS3 logo" />
           <span>CSS3</span>
         </div>
         <div className={styles.item}>
-          <img src={JavaScript} />
+          <img src={JavaScript} alt="JavaScript logo" />
           <span>JavaScript</span>
         </div>
         <div className={styles.item}>
-          <img src={TS} />
+          <img src={TS} alt="TypeScript logo" />
           <span>TypeScript</span>
         </div>
         <div className={styles.item}>
-          <img src={React} />
+          <img src={React} alt="React logo" />
           <span>React</span>
         </div>
         <div className={styles.item}>
-          <img src={Next} />
+          <img src={Next} alt="Next logo" />
           <span>Next</span>
         </div>
         <div className={styles.item}>
-          <img src={Bootstrap} />
+          <img src={Bootstrap} alt="Bootstrap logo" />
           <span>Bootstrap</span>
         </div>
         <div className={styles.item}>
-          <img src={Tailwind} />
+          <img src={Tailwind} alt="Tailwind logo" />
           <span>Tailwind</span>
         </div>
         <div className={styles.item}>
-          <img src={PostgreSQL} />
+          <img src={PostgreSQL} alt="PostgreSQL logo" />
           <span>PostgreSQL</span>
         </div>
 
         <div className={styles.item}>
-          <img src={MongoDB} />
+          <img src={MongoDB} alt="MongoDB logo" />
           <span>MongoDB</span>
         </div>
 
         <div className={styles.item}>
-          <img src={express} />
+          <img src={express} alt="Express js logo" />
           <span>express</span>
         </div>
       </div>
