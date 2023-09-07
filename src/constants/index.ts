@@ -1,6 +1,6 @@
-import postmanImg from "../assets/Postman.png";
-import commerceImg from "../assets/Commerce.png";
-import weatherImg from "../assets/Weather.png";
+import postmanImg from "../assets/Postman.webp";
+import commerceImg from "../assets/Commerce.webp";
+import weatherImg from "../assets/Weather.webp";
 
 export const projects = [
   {
