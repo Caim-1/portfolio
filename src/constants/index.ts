@@ -33,7 +33,7 @@ export const projects = [
 ];
 
 export const profileDescription =
-  "Welcome to my portfolio website! My name is Szymon, a self-taught web developer driven by a boundless passion for coding and creating captivating online experiences. With a strong determination to continuously learn and grow, I have honed my skills in front-end and some back-end development. Through my portfolio, you will discover a collection of projects that showcase my ability to craft various and functional websites. From responsive designs to user experiences, I hope to deliver results that satisfy user expectations.";
+  "Welcome to my portfolio website! My name is Szymon Siudzinski, a self-taught web developer driven by a boundless passion for coding and creating captivating online experiences. With a strong determination to continuously learn and grow, I have honed my skills in front-end and some back-end development. Through my portfolio, you will discover a collection of projects that showcase my ability to craft various and functional websites. From responsive designs to user experiences, I hope to deliver results that satisfy user expectations.";
 
 export const interests = [
   "Programming",

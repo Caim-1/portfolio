@@ -5,7 +5,7 @@ export default function Description() {
   return (
     <div>
       <p className={styles.description}>{profileDescription}</p>
-      <div>Interests: ...</div>
+      <div>Interests: Programming and video games </div>
     </div>
   );
 }
