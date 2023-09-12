@@ -24,7 +24,7 @@ export const projects = [
   {
     title: "Weather App",
     img: weatherImg,
-    demoUrl: "https://github.com/Caim-1",
+    demoUrl: "https://caim-1.github.io/react-weather-app/",
     githubUrl: "https://github.com/Caim-1/react-weather-app",
     description:
       "A simple web application which displays a weather forecast. Data provided by OpenWeatherMap API.",

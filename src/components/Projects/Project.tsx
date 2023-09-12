@@ -25,7 +25,7 @@ const Project = ({
         <a
           href={demoUrl}
           target="_blank"
-          aria-label="View a demonstartion of the project"
+          aria-label="View a demonstration of the project"
         >
           <img className={styles.image} src={img} alt="Project image" />
         </a>
@@ -36,7 +36,7 @@ const Project = ({
           <a
             href={demoUrl}
             target="_blank"
-            aria-label="View a demonstartion of the project"
+            aria-label="View a demonstration of the project"
           >
             Demo
           </a>
